@@ -23,9 +23,9 @@ import java.util.Scanner;
 
 		/** Returns an array with 100 randomly chosen integers */
 		public static int[] getArray() {
-			int[] array = new int[100];
+			int[] array = new int[10];
 			for (int i = 0; i < array.length; i++) {
-				array[i] = (int)(Math.random() * 100) + 1;
+				array[i] = (int)(Math.random() * 10) + 1;
 			}
 			return array;
 		}
